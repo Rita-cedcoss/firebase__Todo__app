@@ -1,12 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 .outer {
     min-height: 300px;
     width: 100%;
     padding-top: 50px;
 }
+
 .todoForm {
     min-height: 120px;
     width: 70%;
@@ -16,6 +18,7 @@
     padding-top: 20px;
     margin: 20px auto;
 }
+
 .todoForm__input {
     height: 45px;
     width: 90%;
@@ -26,7 +29,8 @@
     display: flex;
     align-items: center;
 }
-.todoForm__input>input{
+
+.todoForm__input>input {
     height: 95%;
     width: 85%;
     border: none;
@@ -34,11 +38,11 @@
     outline: none;
     padding-left: 20px;
 }
-.todoForm__input>p{
+
+.todoForm__input>p {
     height: 100%;
     width: 8%;
     background-color: rgb(5 65 155);
-    /* background-color: rgb(7, 196, 186); */
     font-size: 30px;
     color: white;
     border-radius: 5px 0px 0px 5px;
@@ -46,10 +50,10 @@
     align-items: center;
     justify-content: center;
 }
-.todoForm>button{
+
+.todoForm>button {
     border:none;
     border-radius: 5px;
-    /* background-color:rgb(7, 196, 186); */
     background-color: rgb(5 65 155);
     color:white;
     font-size: 20px;
@@ -57,6 +61,7 @@
     width: 90%;
     margin:20px auto;
 }
+
 .todobutton {
     min-height: 80px;
     width: 70%;
@@ -67,21 +72,23 @@
     align-items: center;
     padding: 5px;
 }
-.todobutton>button{
+
+.todobutton>button {
     min-height: 40px;
     border: none;
     width: 25%;
     border-radius: 5px;
     background-color: rgb(5 65 155);
-    /* background: rgb(7, 196, 186); */
     color: white;
     font-size: 20px;
 }
-.todolist{
+
+.todolist {
     min-height: 100px;
     width: 70%;
     margin: auto;
 }
+
 .todolist__content {
     min-height: 30px;
     width: 98%;
@@ -93,32 +100,38 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .todolist__btn {
     display: flex;
     font-size: 20px;    
 }
+
 .todolist__btn>input{
     width:20px;
     margin-right: 8px;
 }
+
 .todolist__btn>button {
     border: none;
     background: none;
     margin: 10px;
     font-size: 20px;
 }
+
 .todoBtn {
     width: 48% !important;
-    background-color: rgb(236, 24, 59) !important;
-    
+    background-color: rgb(236, 24, 59) !important;   
 }
-.todolist__btndel{
+
+.todolist__btndel {
     color: red;
 }
-.todolist__btnedit{
+
+.todolist__btnedit { 
     color: #cd8708;
 }
-.cutText{
+
+.cutText {
     text-decoration: line-through;
     color: red;
 }

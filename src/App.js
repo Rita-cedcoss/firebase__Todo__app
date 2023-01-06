@@ -5,7 +5,9 @@ import "./Todo_App/TodoComponent.css";
 function App() {
   return (
     <div className="App">
+      {/* without using toolkit */}
       {/* <TodoComponent/> */}
+      {/* using toolkit */}
       <TodoList />
     </div>
   );
