@@ -34,10 +34,12 @@ const TodoList = () => {
       };
       push(todoRef, todo);
       dispatch(todoData(todo));
+      inpref.current.value=""
     } else {
       dispatch(updateTodo({ arr: dbItem, title: title }));
       inpref.current.value = "";
       setBtntext("Add New Task");
+      inpref.current.value="";
     }
   };
   //  display data
